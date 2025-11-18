@@ -1,4 +1,4 @@
-# 📱 CFH Furnitualizer – AR Furniture Placement App
+# CFH Furnitualizer – AR Furniture Placement App
 
 **Flutter + Unity + ARCore | Final Year Project (2022–2023)**  
 CFH Furnitualizer is an augmented-reality–based furniture shopping application that allows users to **visualize 3D furniture in their actual room** using **ARCore**.  
@@ -6,17 +6,17 @@ Built with **Flutter**, **Unity 3D**, and **Firebase**, it provides an immersive
 
 ---
 
-## 🚀 Overview
+## Overview
 
 Traditional online furniture shopping lacks visualization—customers often buy furniture that does not fit their space or interior.  
 CFH Furnitualizer solves this by enabling users to:
 
-- 🪑 Browse furniture products  
-- 📄 View detailed specifications  
-- 🎥 Preview furniture in 3D  
-- 📍 Place furniture directly in their room using **Augmented Reality (ARCore)**  
-- 🛒 Manage cart, orders, and profile  
-- 🎨 Enjoy a clean, user-friendly UI  
+- Browse furniture products  
+- View detailed specifications  
+- Preview furniture in 3D  
+- Place furniture directly in their room using **Augmented Reality (ARCore)**  
+- Manage cart, orders, and profile  
+- Enjoy a clean, user-friendly UI  
 
 The admin panel (via Firebase) allows the business owner to manage products, users, and orders.
 
@@ -24,33 +24,33 @@ This project was developed as a **Final Year BSCS Project** at the International
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
-### 🌟 Customer Features
-- 🔐 User registration & login  
-- 🪑 Product catalog with categories  
-- 🔎 Product search  
-- 📄 Detailed product specifications  
-- 🎥 **3D model viewer (Unity)**  
-- 📍 **AR furniture placement using ARCore**
+### Customer Features
+- User registration & login  
+- Product catalog with categories  
+- Product search  
+- Detailed product specifications  
+- **3D model viewer (Unity)**  
+- **AR furniture placement using ARCore**
   - Plane detection  
   - Real-world surface tracking  
   - Rotation and scale gestures  
   - Light estimation  
-- 🛒 Add to cart, update cart, checkout  
-- 🧾 Order history  
-- 👤 Profile management  
+- Add to cart, update cart, checkout  
+- Order history  
+- Profile management  
 
-### 🛠️ Admin Features (via Firebase)
-- ➕ Add products  
-- 📝 Edit products  
-- ❌ Delete products  
-- 👥 Manage users  
-- 🚚 Process orders  
+### Admin Features (via Firebase)
+- Add products  
+- Edit products  
+- Delete products  
+- Manage users  
+- Process orders  
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 ### **Frontend – User App**
 - Flutter (Dart)  
@@ -68,7 +68,7 @@ This project was developed as a **Final Year BSCS Project** at the International
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 Flutter App (User Interface)
 |
@@ -88,7 +88,7 @@ Firebase Backend
 
 ---
 
-## 🧩 System Modules
+## System Modules
 
 ### **Client Application**
 - Registration & Login  
@@ -115,7 +115,7 @@ Firebase Backend
 
 ---
 
-## 🔍 Functional Flow Summary
+## Functional Flow Summary
 
 ✔ 1. User opens the app → Login/Register  
 ✔ 2. Browse categories → Select product  
@@ -154,35 +154,70 @@ All test cases are documented in the full FYP report.
 
 ---
 
-## 📸 Screenshots  
-> Upload your images into a folder named **screenshots/**  
-> Then replace the filenames below with your actual image names.
+##  Screenshots  
 
-### 🏠 Onboarding  
+###  Onboarding  
 <img src="screenshots/onboard.jpg" height="200">
 
-### 🛋️ Product List  
-![Product List](screenshots/product-list.jpg)
+###  Register  
+<img src="screenshots/register.jpg" height="200">
 
-### 📄 Product Details  
-![Product Details](screenshots/product-details.jpg)
+###  Login
+<img src="screenshots/login.jpg" height="200">
 
-### 📍 AR Placement  
-![AR Placement](screenshots/ar-placement.jpg)
+###  Home 
+<img src="screenshots/home.jpg" height="200">
+<img src="screenshots/home_2.jpg" height="200">
 
-### 🛒 Cart & Checkout  
-![Cart](screenshots/cart.jpg)
+###  Search Products
+<img src="screenshots/search.jpg" height="200">
+
+###  Profile
+<img src="screenshots/profile.jpg" height="200">
+
+###  Product Detail
+<img src="screenshots/view_product.jpg" height="200">
+
+###  3D Product Detail
+<img src="screenshots/3d_product.jpg" height="200">
+
+###  AR Placement
+<img src="screenshots/view_in_3d.jpg" height="200">
+
+###  Categories
+<img src="screenshots/categories.jpg" height="200">
+
+###  Category Product
+<img src="screenshots/category_products.jpg" height="200">
+
+###  Cart
+<img src="screenshots/cart.jpg" height="200">
+
+###  Checkout
+<img src="screenshots/checkout.jpg" height="200">
+
+###  AR Placement
+<img src="screenshots/view_in_3d.jpg" height="200">
+
+###  Admin Login
+<img src="screenshots/admin_login.jpg" height="200">
+
+###  Admin Dashboard
+<img src="screenshots/admin_home.jpg" height="200">
+
+###  Admin Product List
+<img src="screenshots/admin_products.jpg" height="200">
+<img src="screenshots/admin_edit-products.jpg" height="200">
+
+###  Admin Add Product
+<img src="screenshots/admin_add-products.jpg" height="200">
+
+###  Admin Order Details
+<img src="screenshots/admin_order_details.jpg" height="200">
 
 ---
 
-## 📄 Project Report  
-Full documentation is included in the repository:
-
-📘 `documents/Final Year Project-CFH Furnitualizer.pdf`
-
----
-
-## 🧑‍💻 Authors
+## Authors
 
 **Sofia Shafique**  
 **Laiba Pervaiz**
@@ -193,7 +228,7 @@ International Islamic University Islamabad
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 CFH Furnitualizer delivers a fully functional AR-enabled furniture shopping experience.  
 By integrating Unity’s 3D capabilities with ARCore’s real-world tracking and Flutter’s rich UI, users can visualize furniture realistically before purchasing — solving the biggest problem in online furniture shopping.
@@ -202,7 +237,7 @@ This project showcases the practical application of Augmented Reality in e-comme
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 - Multi-product AR placement  
 - Real-time occlusion  
 - Room measurement tools  
