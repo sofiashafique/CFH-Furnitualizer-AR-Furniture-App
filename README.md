@@ -179,7 +179,7 @@ Multiple room environments
 All test cases are documented in the FYP report.
 
 📸 Screenshots
-![On Board](/screenshots
+![On Board](screenshots
 /onboard.jpg)
 
 
