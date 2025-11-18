@@ -159,7 +159,7 @@ All test cases are documented in the full FYP report.
 > Then replace the filenames below with your actual image names.
 
 ### 🏠 Onboarding  
-![Onboarding](screenshots/onboard.jpg)
+<img src="screenshots/onboard.jpg" height="200">
 
 ### 🛋️ Product List  
 ![Product List](screenshots/product-list.jpg)
