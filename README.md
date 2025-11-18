@@ -1,214 +1,213 @@
 # 📱 CFH Furnitualizer – AR Furniture Placement App
 
-Flutter + Unity + ARCore | Final Year Project (2022–2023)
-An augmented-reality–based furniture shopping application that allows users to visualize 3D furniture in their actual room using ARCore. Built with Flutter, Unity 3D, and Firebase, the app provides an immersive shopping experience combining e-commerce and mobile AR.
+**Flutter + Unity + ARCore | Final Year Project (2022–2023)**  
+CFH Furnitualizer is an augmented-reality–based furniture shopping application that allows users to **visualize 3D furniture in their actual room** using **ARCore**.  
+Built with **Flutter**, **Unity 3D**, and **Firebase**, it provides an immersive, modern shopping experience for customers and a simple management interface for admins.
 
-🚀 Overview
+---
 
-Traditional online furniture shopping lacks visualization — customers often buy items that do not fit their space. CFH Furnitualizer solves this by enabling users to:
+## 🚀 Overview
 
-Browse furniture products
+Traditional online furniture shopping lacks visualization—customers often buy furniture that does not fit their space or interior.  
+CFH Furnitualizer solves this by enabling users to:
 
-View detailed specifications
+- 🪑 Browse furniture products  
+- 📄 View detailed specifications  
+- 🎥 Preview furniture in 3D  
+- 📍 Place furniture directly in their room using **Augmented Reality (ARCore)**  
+- 🛒 Manage cart, orders, and profile  
+- 🎨 Enjoy a clean, user-friendly UI  
 
-Preview furniture in 3D
+The admin panel (via Firebase) allows the business owner to manage products, users, and orders.
 
-Place furniture directly in their room using Augmented Reality
+This project was developed as a **Final Year BSCS Project** at the International Islamic University Islamabad.
 
-Manage cart, orders, and profile
+---
 
-Use a clean, user-friendly app interface
+## 🎯 Key Features
 
-The admin panel (Firebase) allows the business owner to manage products, users, and orders.
+### 🌟 Customer Features
+- 🔐 User registration & login  
+- 🪑 Product catalog with categories  
+- 🔎 Product search  
+- 📄 Detailed product specifications  
+- 🎥 **3D model viewer (Unity)**  
+- 📍 **AR furniture placement using ARCore**
+  - Plane detection  
+  - Real-world surface tracking  
+  - Rotation and scale gestures  
+  - Light estimation  
+- 🛒 Add to cart, update cart, checkout  
+- 🧾 Order history  
+- 👤 Profile management  
 
-This project was built as a final year BSCS project at International Islamic University Islamabad.
+### 🛠️ Admin Features (via Firebase)
+- ➕ Add products  
+- 📝 Edit products  
+- ❌ Delete products  
+- 👥 Manage users  
+- 🚚 Process orders  
 
-🎯 Key Features
-🌟 For Customers
+---
 
-🔐 User registration & login
+## 🧰 Tech Stack
 
-🪑 Product browsing (categories + search)
+### **Frontend – User App**
+- Flutter (Dart)  
+- Unity 3D  
+- ARCore XR Plugin  
 
-📄 View detailed product specs
+### **Backend**
+- Firebase Authentication  
+- Firebase Firestore  
+- Firebase Storage  
 
-🛒 Add to cart, edit cart, checkout
+### **AR & 3D**
+- Unity 3D Engine  
+- ARCore (Motion Tracking, Plane Detection, Light Estimation)  
 
-🧾 Place orders & view order status
+---
 
-👤 Manage profile
-
-🎥 View furniture in 3D (Unity)
-
-📍 Place furniture in AR using ARCore
-
-Plane detection
-
-Real-world surface tracking
-
-Rotation & scale gestures
-
-Real-time lighting adoption
-
-🛠️ For Admins
-
-(Admin panel in Firebase)
-
-Add/delete/edit products
-
-Manage users
-
-Manage orders
-
-Update order status
-
-🧰 Tech Stack
-Frontend (User App)
-
-Flutter (Dart)
-
-Unity 3D
-
-ARCore XR Plugin (Unity)
-
-Backend
-
-Firebase Authentication
-
-Firebase Firestore (Database)
-
-Firebase Storage
-
-AR & 3D
-
-Unity 3D for rendering
-
-ARCore for:
-
-Motion tracking
-
-Plane detection
-
-Environment understanding
-
-Light estimation
-
-🏗️ System Architecture
-
-Below is the simplified architecture
+## 🏗️ System Architecture
 
 Flutter App (User Interface)
-     |
-     | invokes AR mode
-     |
+|
+| invokes AR mode
+|
 Unity Module (3D + ARCore)
-     | 
-     | communicates with device sensors
-     |
+|
+| communicates with device sensors
+|
 ARCore (Plane detection, motion tracking)
 
 Firebase Backend
- ├── Authentication
- ├── Firestore (Products, Users, Orders)
- └── Storage
+├── Authentication
+├── Firestore (Products, Users, Orders)
+└── Storage
 
 
-🧩 System Modules
-Client App
+---
 
-Registration/Login
+## 🧩 System Modules
 
-Product Management (view/search/filter)
+### **Client Application**
+- Registration & Login  
+- Product Catalog  
+- Search & Filters  
+- 3D Viewer  
+- AR Placement  
+- Cart & Checkout  
+- Order Management  
+- User Profile  
 
-AR Viewer
+### **Admin Panel**
+- Product CRUD  
+- User Management  
+- Order Management  
 
-Cart & Orders
+### **3D & AR Module (Unity)**
+- 3D Model Rendering  
+- Plane Detection  
+- Surface Anchoring  
+- Object Placement  
+- Gesture Controls  
+- Light Estimation  
 
-User Profile
+---
 
-Admin Panel
+## 🔍 Functional Flow Summary
 
-Product CRUD
+✔ 1. User opens the app → Login/Register  
+✔ 2. Browse categories → Select product  
+✔ 3. View product details → “View in 3D”  
+✔ 4. Unity loads the 3D model  
+✔ 5. ARCore scans the real environment  
+✔ 6. Detects plane → User places furniture  
+✔ 7. Scale/rotate → Confirm placement  
+✔ 8. Add to cart → Checkout  
+✔ 9. Order stored in Firebase → Admin processes  
 
-User Management
+---
 
-Order Management
+## 🧪 Testing Summary
 
-3D & AR Module (Unity)
+Testing included:
 
-Model rendering
+### ✔ Unit Tests
+- Login  
+- Registration  
+- Add to cart  
+- Product viewing  
 
-Plane detection
+### ✔ Integration Tests
+- Flutter ↔ Firebase  
+- Flutter ↔ Unity  
+- Unity ↔ ARCore  
 
-3D product placement
+### ✔ AR Tests
+- Plane detection accuracy  
+- Lighting estimation  
+- Scaling, rotation & stability  
+- Testing in multiple room environments  
 
-Gesture controls
+All test cases are documented in the full FYP report.
 
-Real-world light matching
+---
 
-🔍 Functional Flow Summary
-✔ 1. User opens the app → Login/Register
-✔ 2. Browse categories → Select product
-✔ 3. View product details → “View in 3D”
-✔ 4. Unity loads product → ARCore scans room
-✔ 5. Detects plane → User places 3D furniture
-✔ 6. Scale/rotate → Confirm placement
-✔ 7. Add to cart → Place order → Checkout
-✔ 8. Order stored in Firebase → Admin processes
+## 📸 Screenshots  
+> Upload your images into a folder named **screenshots/**  
+> Then replace the filenames below with your actual image names.
 
-🧪 Testing Summary
+### 🏠 Onboarding  
+![Onboarding](screenshots/onboard.jpg)
 
-Comprehensive testing was performed:
+### 🛋️ Product List  
+![Product List](screenshots/product-list.jpg)
 
-Unit Testing: Individual modules like login, cart, product view
+### 📄 Product Details  
+![Product Details](screenshots/product-details.jpg)
 
-Integration Testing: Flutter ↔ Unity ↔ Firebase
+### 📍 AR Placement  
+![AR Placement](screenshots/ar-placement.jpg)
 
-System Testing: End-to-end user scenarios
+### 🛒 Cart & Checkout  
+![Cart](screenshots/cart.jpg)
 
-AR Testing:
+---
 
-Plane detection
+## 📄 Project Report  
+Full documentation is included in the repository:
 
-Lighting estimation
+📘 `documents/Final Year Project-CFH Furnitualizer.pdf`
 
-Model scaling & movement
+---
 
-Multiple room environments
+## 🧑‍💻 Authors
 
-All test cases are documented in the FYP report.
+**Sofia Shafique**  
+**Laiba Pervaiz**
 
-📸 Screenshots
-![On Board](screenshots
-/onboard.jpg)
+Supervised by:  
+**Ms. Anum Yasmin**  
+International Islamic University Islamabad  
 
+---
 
+## 🏁 Conclusion
 
-Authors
+CFH Furnitualizer delivers a fully functional AR-enabled furniture shopping experience.  
+By integrating Unity’s 3D capabilities with ARCore’s real-world tracking and Flutter’s rich UI, users can visualize furniture realistically before purchasing — solving the biggest problem in online furniture shopping.
 
-Sofia Shafique
-Laiba Pervaiz
+This project showcases the practical application of Augmented Reality in e-commerce and provides a strong foundation for future expansion.
 
-Supervised by:
-Ms. Anum Yasmin
-International Islamic University Islamabad
+---
 
-🏁 Conclusion
+## 🔮 Future Enhancements
+- Multi-product AR placement  
+- Real-time occlusion  
+- Room measurement tools  
+- Improved 3D asset optimization  
+- Product recommendation engine  
+- Payment gateway integration  
 
-CFH Furnitualizer delivers a fully functional AR-enabled furniture shopping experience. By integrating Unity and ARCore with Flutter, users can realistically preview products before purchasing, reducing uncertainty and increasing confidence in online shopping.
-
-The project successfully demonstrates the real-world application of Augmented Reality in e-commerce and sets a foundation for future enhancements.
-
-🔮 Future Enhancements
-
-Multi-product AR placement
-
-Real-time occlusion
-
-Measurement tools inside AR mode
-
-Improved 3D asset optimization
-
-Recommendation engine
-
-Payment gateway integration
+---
