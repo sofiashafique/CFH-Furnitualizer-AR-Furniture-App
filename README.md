@@ -129,7 +129,7 @@ Firebase Backend
 
 ---
 
-## 🧪 Testing Summary
+## Testing Summary
 
 Testing included:
 
@@ -195,9 +195,6 @@ All test cases are documented in the full FYP report.
 
 ###  Checkout
 <img src="screenshots/checkout.jpg" height="200">
-
-###  AR Placement
-<img src="screenshots/view_in_3d.jpg" height="200">
 
 ###  Admin Login
 <img src="screenshots/admin_login.jpg" height="200">
